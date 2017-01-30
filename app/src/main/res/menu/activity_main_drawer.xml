@@ -1,36 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
-
-    <item android:title="Communicate">
+    <item android:title="@string/sala">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_luzes_sala"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/luzes" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_televisao"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/televisao" />
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/home_theater" />
+            <item
+                android:id="@+id/nav_net"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/net" />
+            </menu>
+    </item>
+
+    <item android:title="@string/cozinha">
+        <menu>
+            <item
+                android:id="@+id/nav_luzes_cozinha"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/luzes" />
+            <item
+                android:id="@+id/nav_geladeira"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/geladeira" />
         </menu>
     </item>
 
+    <item android:title="@string/quarto_casal">
+        <menu>
+            <item
+                android:id="@+id/nav_luzes_quarto_casal"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/luzes" />
+            <item
+                android:id="@+id/nav_televisao_quarto_casal"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/televisao" />
+            <item
+                android:id="@+id/nav_ar_condicionado"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/ar_condicionado" />
+
+        </menu>
+    </item>
 </menu>

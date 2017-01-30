@@ -1,8 +1,21 @@
 <resources>
     <string name="app_name">Home Control</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fechar navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configurações</string>
+    <string name="luzes">Luzes</string>
+    <string name="televis_o">Televisão</string>
+    <string name="televisao">Televisão</string>
+    <string name="home_theater">Home Theater</string>
+    <string name="net">NET</string>
+    <string name="cozinha">Cozinha</string>
+    <string name="geladeira">Geladeira</string>
+    <string name="ar_condicionado">Ar Condicionado</string>
+    <string name="quarto_casal">Quarto Casal</string>
+    <string name="sala">Sala</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
